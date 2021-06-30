@@ -5,12 +5,18 @@
 }
 
 body{
+<<<<<<< HEAD
     
+=======
+    /* background-image: url('bg.jpeg');
+    background-size: cover; */
+>>>>>>> b9a8e66b501dc1eb395a43bd7840ff337152013b
     overflow: hidden;
     height: 100vh;
     background-color: white;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -55,3 +61,60 @@ body{
   transform:scale(1.2);
   
 }
+=======
+.buttonpanel{
+    position:fixed;
+    width:100%;
+    bottom:0;
+    background-color: rgb(0, 0, 39);
+    height:7%;
+    /* a small taskbar in the lower side of the page */
+}
+
+
+
+
+.vid {
+    position: fixed;
+    
+    top:0;
+    left:0;
+    
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+
+
+
+  .header{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    color: black;
+    animation: fadeIn linear 7s;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  /*
+  .video-container video {
+    /* Make video to at least 100% wide and tall 
+    min-width: 100%; 
+    min-height: 100%; 
+    /*
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video 
+    width: auto;
+    height: auto;
+    
+    /* Center the video 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }*/
+>>>>>>> b9a8e66b501dc1eb395a43bd7840ff337152013b
